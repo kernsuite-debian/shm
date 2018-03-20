@@ -1,0 +1,6 @@
+.debhelper/
+files
+*.debhelper.log
+*.debhelper
+*.substvars
+python-shm/

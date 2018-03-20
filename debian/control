@@ -1,0 +1,16 @@
+Source: shm
+Section: python
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9), dh-python, python-all
+Standards-Version: 3.9.8
+Homepage: http://nikitathespider.com/python/shm/
+X-Python-Version: >= 2.6
+
+Package: python-shm
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: System V shared memory and semaphores
+ This contains the module shm that gives access to System V shared memory and
+ semaphores on *nix systems as well the module shm_wrapper (written by me)
+ which is a companion module that offers more Pythonic access.

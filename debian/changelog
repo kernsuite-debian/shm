@@ -1,0 +1,5 @@
+shm (1.2.2-1kern1) bionic; urgency=low
+
+  * Initial release.
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 20 Mar 2018 09:34:28 +0000
